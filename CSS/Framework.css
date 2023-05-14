@@ -1,0 +1,301 @@
+/* Start Variables */
+:root {
+    --main-blue: #0075ff;
+    --alt-blue: #0d69d5;
+    --main-orange: #f59e0b;
+    --main-green: #22c55e;
+    --main-red: #f44336;
+    --main-gray: #888;
+}
+/* End Variables */
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.d-grid {
+    display: grid;
+}
+.g-20 {
+    gap: 20px;
+}
+.d-b {
+    display: block;
+}
+.d-ib {
+    display: inline-block;
+}
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block !important;
+    }
+}
+/* End Box */
+/* Start padding & Margin */ 
+.p-5 {
+    padding: 5px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.p-15 {
+    padding: 15px
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.p-20 {
+    padding: 20px
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.mlr-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.m-0 {
+    margin: 0px;
+}
+.mt-0 {
+    margin-top: 0px;
+}
+.mb-0 {
+    margin-bottom: 0px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.m-10 {
+    margin: 10px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.m-15 {
+    margin: 15px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.m-25 {
+    margin: 25px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+/* End padding & Margin */ 
+/* Start Color */
+.bg-white {
+    background-color: white;
+}
+.bg-gray {
+    background-color: #EEE;
+}
+.bg-blue {
+    background-color: var(--main-blue);
+}
+.bg-orange {
+    background-color: var(--main-orange);
+}
+.bg-green {
+    background-color: var(--main-green);
+}
+.bg-red {
+    background-color: var(--main-red);
+}
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+.blue {
+    color: var(--main-blue);
+}
+.orange {
+    color: var(--main-orange);
+}
+.green {
+    color: var(--main-green);
+}
+.red {
+    color: var(--main-red);
+}
+.gray {
+    color: var(--main-gray);
+}
+/* End Color */
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center !important;
+    }
+}
+.txt-12 {
+    font-size: 12px
+}
+.txt-13 {
+    font-size: 13px
+}
+.txt-14 {
+    font-size: 14px
+}
+.txt-15 {
+    font-size: 15px
+}
+.txt-20 {
+    font-size: 20px;
+}
+.txt-25 {
+    font-size: 25px;
+}
+.bold {
+    font-weight: bold;
+}
+.lh-1-6 {
+    line-height: 1.6;
+}
+/* End Font */
+/* Start Border & Border-radius & outline */
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-50 {
+    border-radius: 50%;
+}
+.ccc-border {
+    border: 1px solid #CCC; 
+}
+.gray-bb {
+    border-bottom: 1px solid #DDD;
+}
+.no-border {
+    border: none;
+}
+.no-outline {
+    outline: none;
+}
+/* End Border & Border-radius & outline */
+/* Start position */
+.p-relative {
+    position: relative;
+}
+/* End position */
+/* Start transion */
+.trans-3 {
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.trans-5 {
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+/* End transion */
+/* Start Cursor */
+.pointer {
+    cursor: pointer;
+}
+/* End Cursor */
+/* Start Width */
+.w-full {
+    width: 100%;
+} 
+.no-resize {
+    resize: none;
+}
+/* End Width */
+/* Start Components */
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-evenly {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flex-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-shape {
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+/* End Compoments */

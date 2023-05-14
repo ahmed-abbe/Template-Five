@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Files (Template 5)</title>
+        <!-- Render The Elments In The Page Normally -->
+        <link rel="stylesheet" href="CSS/Normalize.css">
+        <!-- Font Awesome Library -->
+        <link rel="stylesheet" href="CSS/all.min.css">
+        <!-- CSS Framework File  -->
+        <link rel="stylesheet" href="CSS/Framework.css">
+        <!-- Main CSS File -->
+        <link rel="stylesheet" href="CSS/Master.css">
+        <!-- Google Fonts (Open Sans) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="page d-flex">
+            <!-- Start Sidedbar -->
+            <div class="sidebar p-20 bg-white p-relative">
+                <h3 class="p-relative mlr-auto mt-0"><a href="index.html">Elzero</a></h3>
+                <ul>
+                    <li>
+                        <a href="index.html" class="d-flex align-center txt-14 p-10 rad-6 trnas-3">
+                            <i class="fa-regular fa-chart-bar fa-fw"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="settings.html" class="d-flex align-center txt-14 p-10 rad-6 trans-3">
+                            <i class="fa-solid fa-gear fa-fw"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="profile.html" class="d-flex align-center txt-14 p-10 rad-6 trans-3">
+                            <i class="fa-regular fa-user fa-fw"></i>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="d-flex align-center txt-14 p-10 rad-6 trans-3">
+                            <i class="fa-solid fa-diagram-project fa-fw"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="courses.html" class="d-flex align-center txt-14 p-10 rad-6 trans-3">
+                            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                            <span>Courses</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="friends.html" class="d-flex align-center txt-14 p-10 rad-6 trans-3">
+                            <i class="fa-regular fa-circle-user fa-fw"></i>
+                            <span>Friends</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="files.html" class="d-flex align-center txt-14 p-10 rad-6 trans-3 active">
+                            <i class="fa-regular fa-file fa-fw"></i>
+                            <span>Files</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="plans.html" class="d-flex align-center txt-14 p-10 rad-6 trans-3">
+                            <i class="fa-regular fa-credit-card fa-fw"></i>
+                            <span>Plans</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Sidebar -->
+            <div class="content w-full">
+                <!-- Start Headbar -->
+                <div class="headbar flex-between bg-white p-15">
+                    <div class="search p-relative">
+                        <i class="fa-solid fa-magnifying-glass pointer txt-14"></i>
+                        <input class="rad-10 trans-3 txt-14" type="search" name="search" placeholder="Type A Keyword" min="1">
+                    </div>
+                    <div class="profile d-flex align-center">
+                        <i class="fa-regular fa-bell pointer p-relative txt-20 mr-15"></i>
+                        <a href="profile.html">
+                            <img class="rad-50" src="imgs/avatar.jpg" alt="Profile Picture">
+                        </a>
+                    </div>
+                </div>
+                <!-- End Headbar -->
+                <h1 class="main-heading">Files</h1>
+                <!-- Start Files Page -->
+                <div class="files-page d-flex g-20 p-20">
+                    <!-- Start Files Info -->
+                    <div class="files-info d-grid g-20">
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/pdf.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.pdf</span>
+                                <span class="owner gray txt-13">Elzero</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">20/06/2020</span>
+                                <span class="size">5.5MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/avi.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.avi</span>
+                                <span class="owner gray txt-13">Admin</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">12.5MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/eps.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.eps</span>
+                                <span class="owner gray txt-13">Uploader</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">2.7MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/psd.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.psd</span>
+                                <span class="owner gray txt-13">Osama</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">15.1MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/dll.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.dll</span>
+                                <span class="owner gray txt-13">Coder</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">2.2MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/png.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.png</span>
+                                <span class="owner gray txt-13">Designer</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">1.1MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/dll.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.dll</span>
+                                <span class="owner gray txt-13">Coder</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">2.2MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/png.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.png</span>
+                                <span class="owner gray txt-13">Designer</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">1.1MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/psd.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.psd</span>
+                                <span class="owner gray txt-13">Osama</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">15.1MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/pdf.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.pdf</span>
+                                <span class="owner gray txt-13">Elzero</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">20/06/2020</span>
+                                <span class="size">5.5MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/avi.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.avi</span>
+                                <span class="owner gray txt-13">Admin</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">12.5MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/eps.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.eps</span>
+                                <span class="owner gray txt-13">Uploader</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">2.7MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/pdf.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.pdf</span>
+                                <span class="owner gray txt-13">Elzero</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">20/06/2020</span>
+                                <span class="size">5.5MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/avi.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.avi</span>
+                                <span class="owner gray txt-13">Admin</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">12.5MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/eps.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.eps</span>
+                                <span class="owner gray txt-13">Uploader</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">2.7MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/psd.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.psd</span>
+                                <span class="owner gray txt-13">Osama</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">15.1MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/dll.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.dll</span>
+                                <span class="owner gray txt-13">Coder</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">2.2MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/png.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.png</span>
+                                <span class="owner gray txt-13">Designer</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">1.1MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/dll.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.dll</span>
+                                <span class="owner gray txt-13">Coder</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">2.2MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/png.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.png</span>
+                                <span class="owner gray txt-13">Designer</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">1.1MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/psd.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.psd</span>
+                                <span class="owner gray txt-13">Osama</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">15.1MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/pdf.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.pdf</span>
+                                <span class="owner gray txt-13">Elzero</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">20/06/2020</span>
+                                <span class="size">5.5MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/avi.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.avi</span>
+                                <span class="owner gray txt-13">Admin</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">12.5MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                        <!-- Start Files Card -->
+                        <div class="file-card p-10 rad-10 bg-white p-relative">
+                            <div class="download-icon">
+                                <a class="trans-3 gray" href="#">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="details mt-10 pb-10 gray-bb d-flex txt-c">
+                                <img class="trans-3" decoding="async" src="imgs/eps.png" alt="File">
+                                <span class="name mt-20 mb-20 txt-15">my-file.eps</span>
+                                <span class="owner gray txt-13">Uploader</span>
+                            </div>
+                            <div class="flex-between gray txt-13 mt-10">
+                                <span class="date">16/5/2021</span>
+                                <span class="size">2.7MB</span>
+                            </div>
+                        </div>
+                        <!-- End Files Card -->
+                    </div>
+                    <!-- End Files Info -->
+                    <!-- Start Files Stats -->
+                    <div class="files-stats rad-10 p-20 bg-white txt-c">
+                        <h2 class="mt-0 mb-20">File Statistics</h2>
+                        <!-- Start File Box -->
+                        <div class="file-box rad-6 p-10 ccc-border flex-center mb-15">
+                            <i class="fa-regular fa-file-pdf fa-fw blue flex-center"></i>
+                            <div class="type txt-13">
+                                <span>PDF Files</span>
+                                <span class="d-b gray mt-5">130 Files</span>
+                            </div>
+                            <span class="size gray txt-14">6.5GB</span>
+                        </div>
+                        <!-- End File Box -->
+                        <!-- Start File Box -->
+                        <div class="file-box rad-6 p-10 ccc-border flex-center mb-15">
+                            <i class="fa-regular fa-images fa-fw green flex-center"></i>
+                            <div class="type txt-13">
+                                <span>Images</span>
+                                <span class="d-b gray mt-5">115 Files</span>
+                            </div>
+                            <span class="size gray txt-14">3.5GB</span>
+                        </div>
+                        <!-- End File Box -->
+                        <!-- Start File Box -->
+                        <div class="file-box rad-6 p-10 ccc-border flex-center mb-15">
+                            <i class="fa-regular fa-file-word fa-fw red flex-center"></i>
+                            <div class="type txt-13">
+                                <span>Word Files</span>
+                                <span class="d-b gray mt-5">110 Files</span>
+                            </div>
+                            <span class="size gray txt-14">3.2GB</span>
+                        </div>
+                        <!-- End File Box -->
+                        <!-- Start File Box -->
+                        <div class="file-box rad-6 p-10 ccc-border flex-center mb-15">
+                            <i class="fa-solid fa-file-csv fa-fw orange flex-center"></i>
+                            <div class="type txt-13">
+                                <span>Word Files</span>
+                                <span class="d-b gray mt-5">110 Files</span>
+                            </div>
+                            <span class="size gray txt-14">2.9GB</span>
+                        </div>
+                        <!-- End File Box -->
+                        <!-- Start Upload Button -->
+                        <a class="upload d-ib btn-shape bg-blue white txt-14 trans-3" href="#">
+                            <i class="fa-solid fa-angles-up mr-10"></i>
+                            Upload
+                        </a>
+                        <!-- End Upload Button -->
+                    </div>
+                    <!-- End Files Stats -->
+                </div>
+                <!-- End Files Page -->
+            </div>
+        </section>
+    </body>
+    </html>
